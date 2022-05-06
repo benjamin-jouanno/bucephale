@@ -1,0 +1,31 @@
+.bar {
+    width: 100%;
+    display: inline-block;
+}
+
+.item {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.title {
+    font-weight: 800;
+    color: #472836;
+}
+
+.right-side {
+    float: right;
+    margin-right: 3rem;
+}
+
+.section {
+    color: #9AD2CB;
+    transition: ease-in-out .3s;
+}
+
+.section:hover {
+    color: #472836;
+    transition: ease-in-out .3s;
+}
